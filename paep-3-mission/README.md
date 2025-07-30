@@ -228,7 +228,7 @@ Python Australia organisation was:
 * How do we make it easier for organisers of local Python user groups to find potential sponsors
   and/or recurring venues for their meetup?
 
-Quite frequently, these arrangement are based on specific individuals within the local user
+Quite frequently, these arrangements are based on specific individuals within the local user
 groups, which means they can falter if those individual change jobs, or stop being actively
 involved in the organisation of that user group.
 
