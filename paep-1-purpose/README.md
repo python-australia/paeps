@@ -141,7 +141,7 @@ with a link to the details of the resolution. If the PAEP is resolved in a forum
 (such as Discord), then the resolution will be recorded in an issue on the PAEPs repository, and the PAEP metadata
 will link to that issue.
 
-## Proposed PAEP states
+## Proposal states
 
 **Open**
 * Draft
