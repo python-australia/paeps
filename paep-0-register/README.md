@@ -1,15 +1,18 @@
 # PAEP Register
 
-This document will be used to brainstorm and track who is doing work on various PAEPs. PAEP 1 is designed as an equivalent to PEP 1, which demonstrates the guidelines for PEPs as it describes them. 
+This is the index of all Python Australia Enhancement Proposals, known as PAEPs.
+PAEP numbers are assigned by the repository maintainers, and once assigned are never changed.
+The version control history of the PAEP texts represent their historical record.
 
-Of note: the titles in this table are not final \- they’re only to set the gist of the document and may change as the team involved sets their direction.
+Note: the structure of this page is not final (and ideally will be replaced by a page
+that is automatically generated from the individual PAEP metadata)
 
 
-| PAUEP\# | Title/Subject Matter (Title TBD)      | Team | State    |     |
-| :------ | :------------------------------------ | :--- | :------- | :-- |
-| 0       | PAEP Register                         |      | Draft    |     |
-| 1       | PAEP Purpose                          | WG2  | Draft    |     |
-| 2       | (body registerable name)              |      | Proposed |     |
-| 3       | Mission Statement of Python Australia | WG4  | Proposed |     |
-| 4       |                                       |      |          |     |
-|         |                                       |      |          |     |
+| PAEP\# | Title                                 | State    |     |
+| :----- | :------------------------------------ | :------- | :-- |
+| 0      | PAEP Register                         | Draft    |     |
+| 1      | PAEP Purpose and Guidelines           | Draft    |     |
+| 2      | (reserved for formal org proposal)    |          |     |
+| 3      | Mission Statement of Python Australia | Draft    |     |
+| 4      |                                       |          |     |
+|        |                                       |          |     |

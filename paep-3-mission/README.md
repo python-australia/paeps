@@ -2,8 +2,7 @@
 PAEP: 3
 Title: Proposed Python Australia Mission Statement
 
-Team: Mission Statement WG
-Shepherd: Alyssa Coghlan
+Author: Alyssa Coghlan
 
 Created: 2025-04-06
 # Resolved: TBD
