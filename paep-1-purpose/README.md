@@ -125,6 +125,10 @@ rationale for their veto, and indicate if they consider the proposal irredeemabl
 or if their concern is with specific details of the proposal that could be amended without
 having to discard the overall proposal.
 
+Based on the details of the feedback associated with a failed approval vote, PAEP Authors may
+either choose to accept the rejection as final, or else revert the proposal to a Draft state and
+then resubmit it for approval after making suitable amendments.
+
 Approval polls MUST remain open for at least 7 days, and MAY remain open for up to 14 days.
 
 For PAEP approval ballots, the poll question should provide the PAEP title and link to the PAEP text
