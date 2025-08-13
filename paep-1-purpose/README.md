@@ -39,6 +39,11 @@ The approval processes described in this section may be used for the following p
 A specific example of the last category would be the decision to switch the PAEPs repository
 from being a private GitHub repository to being a public one.
 
+Note that many decisions may be made without needing a formal PAEP or approval vote.
+The PAEP and approval vote mechanisms exist to allow decisions to be made in situations that
+members feel they can't reasonably resolve as individuals, rather than requiring that
+*everything* use these processes.
+
 ## Prior to the establishment of a formal organisation
 
 In the absence of a formal Python Australia organisation, an interim approval process is
@@ -51,31 +56,74 @@ the formal organisation when it is established.
 
 ### Potential Founding Members
 
-Potential Founding Members are those individuals that have received (and accepted) an invitation
-to one of the following communications platforms:
+The roster of Potential Founding Members aims to include those individuals that are already
+actively involved in organising the Australian Python community, as these are the folks the
+proposed organisation primarily aims to support. This group includes Python user group
+organisers, community workshop organisers, conference organisers, and other individuals that
+have been invited to actively participate in the development and establishment of a formal
+Python Australia organisation.
 
-* the "PyAU" Discord server;
-* the "python-australia" GitHub organization;
-* any other shared communication channel that is established prior to setting up the formal organisation
-  (preferably this will include a more free-software compatible platform, such as a Zulip or Discourse instance).
+The initial set of Potential Founding Members was established following PyCon Australia 2024,
+when Elena Williams, Nic Crouch, and Jack Skinner brought together a group of existing organisers
+and open source contributors in the Australian Python community to discuss the possibility of
+establishing a formal Python Australia organisation.
 
 New Potential Founding Members are added via nomination by an existing Potential Founding Member,
 with that nomination then being supported by at least one other Potential Founding Member.
 
-The initial set of Potential Founding Members was established following PyCon Australia 2024,
-when Elena Williams, Nic Crouch, and Jack Skinner brought together a group of existing organisers and
-open source contributors in the Australian Python community to discuss the possibility of establishing
-a formal Python Australia organisation.
+The roster of Potential Founding Members is maintained as the list of individuals that have
+received (and accepted) an invitation to the "PyAU" Discord server. This is likely to be
+transferred to a platform independent format at a later date, but this mechanism is considered
+sufficient as a pragmatic starting point. It is also plausible that Discord may be replaced
+with a more open, locally controlled communications platform. Future approval for either of
+those changes will use the mechanisms described in this PAEP.
+
+Note: separately from the Potential Founding Members, it is likely that there will be a more open
+invitation issued to folks that are interested in signing up as members of the new organisation
+once it exists, without necessarily being actively involved in the details of establishing that
+organisation. Folks accepting that broader invitation will be free to comment on PAEPs and other
+aspects of the proposed formal organisation, but won't be able to directly participate in
+approval polls.
 
 ### Approval by polling the Potential Founding Members
 
-Polls of the potential founding members will use the polling mechanisms of the available communication platforms.
+Polls of the Potential Founding Members will use the polling mechanisms of the chosen communication
+platforms.
 
 Initially, this will mean the use of *open* ballots in the "PyAU" Discord server.
 A dedicated `#approval-polls` channel will be established for this purpose.
 
-Approval polls must be yes/no polls, decided by a simple majority. PAEP authors are free to publish
-more complex non-binding polls in other channels to help inform the PAEP development process.
+PAEP authors are free to publish non-binding polls in other channels to help inform the
+PAEP development process.
+
+Approval polls will use a "threshold with veto" voting mechanism inspired by the +1/+0/-0/-1 style
+Apache voting process:
+
+* Strong approval (+1)
+* Mild approval (+0)
+* Mild disapproval (-0)
+* Veto (-1)
+* Abstention (-)
+
+In order to pass, an approval poll must receive at least 5 votes for strong approval, and NO
+vetoes. Allowing vetoes is intended to be the equivalent of an "Emergency Stop" button on an
+industrial site: each Potential Founding Member is trusted with the authority to say
+"We're about to make a serious mistake here, let's stop and consider this further".
+
+Mild approval and mild disapproval votes do not affect the outcome of the ballot, but allow
+members to indicate they have reservations about a proposal even if they don't feel strongly
+enough about those reservations to invoke their veto.
+
+Explicit abstentions (voting to abstain) and implicit abstentions (failing to vote) also
+do not affect the outcome of the ballot.
+
+Rejection of a proposal may occur either via a "collective 'Meh'" (failing to reach the
+strong approval threshold), or by a Potential Founding Member invoking their veto.
+
+If a Potential Founding Member invokes their veto, they are expected to provide the
+rationale for their veto, and indicate if they consider the proposal irredeemably flawed,
+or if their concern is with specific details of the proposal that could be amended without
+having to discard the overall proposal.
 
 Approval polls MUST remain open for at least 7 days, and MAY remain open for up to 14 days.
 
@@ -86,8 +134,8 @@ For other decision approval ballots, the question should be simple enough that i
 directly in the poll definition. If more background is required than can be reasonably included in
 the poll question, it indicates that using the full PAEP process may be more appropriate.
 
-If an alternative communications platform is set up, this section may be amended via the PAEP process to
-switch the approval polls to that platform.
+If an alternative communications platform is set up, the approval polls may be switched to that
+platform using the mechanisms described in this PAEP.
 
 ### Approval by delegation
 
@@ -133,13 +181,15 @@ Superseded-by (optional): `int` (per PAEP register)
 
 `state` is process PAEP state, see section: PAEP states.
 
-The authors of a PAEP are responsible for building consensus within the community and documenting dissenting opinions.
+The authors of a PAEP are responsible for building consensus within the community and documenting
+dissenting opinions.
+
 If one or more approval delegates are nominated, their role is recorded in the PAEP metadata.
 
-When a PAEP is resolved (whether via approval or rejection), the resolution date will be added to the PAEP metadata,
-with a link to the details of the resolution. If the PAEP is resolved in a forum which does not support URL references
-(such as Discord), then the resolution will be recorded in an issue on the PAEPs repository, and the PAEP metadata
-will link to that issue.
+When a PAEP is resolved (whether via approval or rejection), the resolution date will be added to
+the PAEP metadata, with a link to the details of the resolution. If the PAEP is resolved in a forum
+which does not support public URL references (such as a private Discord server), then the resolution
+will be recorded in an issue on the PAEPs repository, and the PAEP metadata will link to that issue.
 
 ## Proposal states
 
