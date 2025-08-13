@@ -103,7 +103,7 @@ Apache voting process:
 * Mild approval (+0)
 * Mild disapproval (-0)
 * Veto (-1)
-* Abstention (-)
+* Abstention
 
 In order to pass, an approval poll must receive at least 5 votes for strong approval, and NO
 vetoes. Allowing vetoes is intended to be the equivalent of an "Emergency Stop" button on an
