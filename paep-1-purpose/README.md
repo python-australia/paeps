@@ -5,9 +5,9 @@ Title: PAEP Purpose and Guidelines
 Authors: Alyssa Coghlan, Elena Williams
 
 Created: 2025-03-16
-# Resolved: TBD
+Resolved: [2025-08-31](https://github.com/python-australia/paeps/pull/7#issuecomment-3241276245)
 
-State: Draft
+State: Active
 ---
 
 # What is a “PAEP”?
@@ -91,7 +91,8 @@ Polls of the Potential Founding Members will use the polling mechanisms of the c
 platforms.
 
 Initially, this will mean the use of *open* ballots in the "PyAU" Discord server.
-A dedicated `#approval-polls` channel will be established for this purpose.
+A dedicated `#votes` channel has been established for this purpose, together with a dedicated
+`#votes-discussion` channel for any related questions and clarifications.
 
 PAEP authors are free to publish non-binding polls in other channels to help inform the
 PAEP development process.
@@ -99,26 +100,24 @@ PAEP development process.
 Approval polls will use a "threshold with veto" voting mechanism inspired by the +1/+0/-0/-1 style
 Apache voting process:
 
-* Strong approval (+1)
-* Mild approval (+0)
-* Mild disapproval (-0)
+* Approve (+1)
+* Abstain, mildly in favour (+0)
+* Abstain, not in favour (-0)
 * Veto (-1)
-* Abstention
+* Abstain, not expressing a perspective
 
-In order to pass, an approval poll must receive at least 5 votes for strong approval, and NO
+In order to pass, an approval poll must receive at least 5 votes for approval, and NO
 vetoes. Allowing vetoes is intended to be the equivalent of an "Emergency Stop" button on an
 industrial site: each Potential Founding Member is trusted with the authority to say
 "We're about to make a serious mistake here, let's stop and consider this further".
 
-Mild approval and mild disapproval votes do not affect the outcome of the ballot, but allow
-members to indicate they have reservations about a proposal even if they don't feel strongly
-enough about those reservations to invoke their veto.
-
-Explicit abstentions (voting to abstain) and implicit abstentions (failing to vote) also
-do not affect the outcome of the ballot.
+Abstentions (whether explicit votes to abstain, or implicitly abstaining by failing to vote)
+do not affect the outcome of the ballot. When explicitly abstaining, members may still indicate
+whether or not they favour the proposal, even if they don't feel strongly enough about it to
+either assist in meeting the approval threshold or to invoke their veto.
 
 Rejection of a proposal may occur either via a "collective 'Meh'" (failing to reach the
-strong approval threshold), or by a Potential Founding Member invoking their veto.
+approval threshold), or by a Potential Founding Member invoking their veto.
 
 If a Potential Founding Member invokes their veto, they are expected to provide the
 rationale for their veto, and indicate if they consider the proposal irredeemably flawed,
@@ -193,7 +192,8 @@ If one or more approval delegates are nominated, their role is recorded in the P
 When a PAEP is resolved (whether via approval or rejection), the resolution date will be added to
 the PAEP metadata, with a link to the details of the resolution. If the PAEP is resolved in a forum
 which does not support public URL references (such as a private Discord server), then the resolution
-will be recorded in an issue on the PAEPs repository, and the PAEP metadata will link to that issue.
+will be recorded in an issue or PR comment on the PAEPs repository, and the PAEP metadata will link
+to the relevant issue/PR.
 
 ## Proposal states
 
