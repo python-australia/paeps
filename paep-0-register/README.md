@@ -8,11 +8,13 @@ Note: the structure of this page is not final (and ideally will be replaced by a
 that is automatically generated from the individual PAEP metadata)
 
 
-| PAEP\# | Title                                 | State    |     |
-| :----- | :------------------------------------ | :------- | :-- |
-| 0      | PAEP Register                         | Draft    |     |
-| 1      | PAEP Purpose and Guidelines           | Draft    |     |
-| 2      | (reserved for formal org proposal)    |          |     |
-| 3      | Mission Statement of Python Australia | Draft    |     |
-| 4      |                                       |          |     |
-|        |                                       |          |     |
+| PAEP\# | Title                                   | State    |     |
+| :----- | :-------------------------------------- | :------- | :-- |
+| 0      | PAEP Register                           | Draft    |     |
+| 1      | PAEP Purpose and Guidelines             | Draft    |     |
+| 2      | (reserved for formal org proposal)      |          |     |
+| 3      | Mission Statement of Python Australia   | Draft    |     |
+| 4      | Linux Australia Independent Subcommitte | Draft    |     |
+| 5      |                                         |          |     |
+| 6      |                                         |          |     |
+| 7      |                                         |          |     |
