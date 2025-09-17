@@ -28,6 +28,26 @@ This format is adopted to:
 
 Each PAEP will be designated a positive integer number in consecutive order, per the PAEP register.
 
+# When is a formal process needed?
+
+Many decisions related to Python Australia may be made without needing a formal PAEP or approval
+vote. For example, if someone wants to talk at their local user group about the efforts
+that are being made to establish Python Australia and some of the hoped for benefits of getting
+such an organisation in place, that's not something that needs anyone else's permission.
+Similarly, editorial updates to the Python Australia website, or even the explanatory portions of
+process PAEPs may take place through regular source update review tools.
+
+Instead, the PAEP and approval vote mechanisms exist to allow decisions to be made in situations
+that members feel they can't reasonably resolve as individuals, rather than requiring that
+*everything* use these processes.
+
+If we're thinking "It would be good if X happened, I'm willing to spend time on X, but I don't
+think I have the right to do X on Python Australia's behalf", then that's the kind of situation
+these processes are designed to help resolve.
+
+And if we're not sure, we can just ask other members if they feel a particular question should be
+escalated before we follow through on doing anything about it.
+
 # PAEP Approval Processes
 
 The approval processes described in this section may be used for the following purposes:
@@ -38,11 +58,6 @@ The approval processes described in this section may be used for the following p
 
 A specific example of the last category would be the decision to switch the PAEPs repository
 from being a private GitHub repository to being a public one.
-
-Note that many decisions may be made without needing a formal PAEP or approval vote.
-The PAEP and approval vote mechanisms exist to allow decisions to be made in situations that
-members feel they can't reasonably resolve as individuals, rather than requiring that
-*everything* use these processes.
 
 ## Prior to the establishment of a formal organisation
 
@@ -78,26 +93,25 @@ sufficient as a pragmatic starting point. It is also plausible that Discord may 
 with a more open, locally controlled communications platform. Future approval for either of
 those changes will use the mechanisms described in this PAEP.
 
-Note: separately from the Potential Founding Members, it is likely that there will be a more open
-invitation issued to folks that are interested in signing up as members of the new organisation
-once it exists, without necessarily being actively involved in the details of establishing that
-organisation. Folks accepting that broader invitation will be free to comment on PAEPs and other
-aspects of the proposed formal organisation, but won't be able to directly participate in
-approval polls.
+Note: separately from the Potential Founding Members, a more open invitation has been issued to
+folks that are interested in signing up as members of the new organisation once it exists, without
+necessarily being directly involved in the details of establishing that organisation. Folks
+accepting that broader invitation are free to comment on PAEPs and other aspects of the proposed
+formal organisation, but aren't able to directly participate in approval polls.
 
 ### Approval by polling the Potential Founding Members
 
-Polls of the Potential Founding Members will use the polling mechanisms of the chosen communication
+Polls of the Potential Founding Members use the polling mechanisms of the chosen communication
 platforms.
 
-Initially, this will mean the use of *open* ballots in the "PyAU" Discord server.
+Initially, this means the use of *open* ballots in the "PyAU" Discord server.
 A dedicated `#votes` channel has been established for this purpose, together with a dedicated
 `#votes-discussion` channel for any related questions and clarifications.
 
 PAEP authors are free to publish non-binding polls in other channels to help inform the
 PAEP development process.
 
-Approval polls will use a "threshold with veto" voting mechanism inspired by the +1/+0/-0/-1 style
+Approval polls use a "threshold with veto" voting mechanism inspired by the +1/+0/-0/-1 style
 Apache voting process:
 
 * Approve (+1)
