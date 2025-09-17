@@ -28,17 +28,23 @@ This format is adopted to:
 
 Each PAEP will be designated a positive integer number in consecutive order, per the PAEP register.
 
+## Pronunciation
+
+Discussing the PAEP process at PyCon Australian 2025 made it clear that some level of consensus on
+how to pronounce "PAEP" would be helpful. The suggested pronunciation is "pay-ep", but we're mostly
+Australians, so it's inevitable it will frequently be shortened to the single syllable "pape".
+
 # When is a formal process needed?
 
-Many decisions related to Python Australia may be made without needing a formal PAEP or approval
+Many decisions relating to Python Australia may be made without needing a formal PAEP or approval
 vote. For example, if someone wants to talk at their local user group about the efforts
 that are being made to establish Python Australia and some of the hoped for benefits of getting
 such an organisation in place, that's not something that needs anyone else's permission.
 Similarly, editorial updates to the Python Australia website, or even the explanatory portions of
-process PAEPs may take place through regular source update review tools.
+process PAEPs, may take place through regular source update review tools.
 
 Instead, the PAEP and approval vote mechanisms exist to allow decisions to be made in situations
-that members feel they can't reasonably resolve as individuals, rather than requiring that
+that members feel they *can't* reasonably resolve as individuals, rather than requiring that
 *everything* use these processes.
 
 If we're thinking "It would be good if X happened, I'm willing to spend time on X, but I don't
@@ -56,8 +62,9 @@ The approval processes described in this section may be used for the following p
 * nominating a decision making delegate (or delegates) for a given PAEP
 * making decisions which do require some level of consensus, but not the full complexity of a PAEP
 
-A specific example of the last category would be the decision to switch the PAEPs repository
-from being a private GitHub repository to being a public one.
+Specific examples of the last category would be the decision to switch the PAEPs repository
+from being a private GitHub repository to being a public one, as well as the acceptance of
+`pythonaustralia.org` as the domain for Python Australia's initial web presence.
 
 ## Prior to the establishment of a formal organisation
 
