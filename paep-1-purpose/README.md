@@ -32,9 +32,14 @@ Each PAEP will be designated a positive integer number in consecutive order, per
 
 Discussing the PAEP process at PyCon Australian 2025 made it clear that some level of consensus on
 how to pronounce "PAEP" would be helpful. The suggested pronunciation is "pay-ep", but we're mostly
-Australians, so it's inevitable it will frequently be shortened to the single syllable "pape".
+Australians, so it's inevitable it will frequently be shortened to the single syllable "pape"/"payp".
 
 # When is a formal process needed?
+
+**High Level Summary**:
+
+* PAEPs exist to allow both: things to get done AND having informed consensus
+* only large/controversial efforts need to be PAEPs, smaller things can just be Issues
 
 Many decisions relating to Python Australia may be made without needing a formal PAEP or approval
 vote. For example, if someone wants to talk at their local user group about the efforts
